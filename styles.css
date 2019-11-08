@@ -1,0 +1,19 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background-image: url("images/background-header.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding-top: 30px;
+}
+
+#header a {
+    color: #ffffff;
+}
