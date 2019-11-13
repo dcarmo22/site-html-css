@@ -1,15 +1,40 @@
-* {
-    box-sizing: border-box;
-}
+@import url('reset.css');
+@import url('grid.css');
+@import url('buttons.css');
 
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
+
+}
+
+bnt {
+    font-size: 16px;
+    padding: 10px 30px;
+    
+
+}
+
+.bnt:hover {
+    background-color: rgb(84, 180, 84);
+}
+
+#header nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#header nav a:hover, #header nav a.active {
+    background-color: rgba(84, 209, 84, 0.3);
+}
+
+#header h1 {
+    font-size: 54px;
 }
 
 #header {
-    background-image: url("images/background-header.jpg");
+    background-image: url("../images/background-header.jpg");
     background-color: #000;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,6 +48,7 @@ body {
 
 #header a {
     color: #ffffff;
+    transition: ease .5s all;
 }
 
 #header nav {
