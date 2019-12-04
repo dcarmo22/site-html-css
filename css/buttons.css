@@ -1,4 +1,4 @@
-.bnt {
+.btn {
     background-color: rgb(84, 209, 84);
     color: #ffffff;
     display: inline-block;
@@ -6,8 +6,21 @@
     padding: 10px 20px;
     text-decoration: none;
     transition: ease 5s all;
+    border: none;
+    cursor: pointer;
 }
 
-.bnt:hover {
+.btn:hover {
     background-color: rgb(84, 180, 84);
 }
+
+.btn.orange {
+    background-color: #fed136;
+}
+
+.btn.orange:hover {
+    background-color: black;
+}
+
+
+
