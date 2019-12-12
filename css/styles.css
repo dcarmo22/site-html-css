@@ -36,10 +36,11 @@ body {
 
 #header h1 {
     font-size: 54px;
+    line-height: 60px;
 }
 
 #header {
-    background: #000 no-repeat fixed;
+    background: #000 no-repeat fixed center;
     background-size: cover;
     color: #fff;
     width: 100%;
@@ -160,6 +161,11 @@ body {
 
 }
 
+@media (max-width: 992px) {
+    #header, #header nav {
+        text-align: center;
+    }
+}
 
 
 
